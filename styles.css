@@ -1,0 +1,49 @@
+/* styles.css */
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page-slide {
+  height: 100vh;
+  scroll-snap-align: start;
+  padding: 20px;
+}
+
+.slider-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.profile-header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Custom animation */
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.no-break {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.scrollable {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.no-text-decoration{
+    text-decoration: none;
+}
